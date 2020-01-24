@@ -1,0 +1,49 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Acc12345",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "platformName": "android",
+      "deviceName": "FCB77862B0579F1D78EF7F15F86E9E40E1A1F359",
+      "user": "praveen@perfectomobile.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Calculator"
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "baseurl": "",
+      "driver.name": "perfectoDriver",
+      "driver.capabilities.deviceName": "FCB77862B0579F1D78EF7F15F86E9E40E1A1F359"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_131",
+      "os.arch": "amd64",
+      "host": "nb-sreevatsa-8",
+      "os.name": "Windows 8.1",
+      "user.name": "Praveen",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1527507784740,
+  "endTime": 1527507784775
+}

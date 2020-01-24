@@ -1,0 +1,176 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[io.selendroid.testapp]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 725
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_Homepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='io.selendroid.testapp:id/startUserRegistration'], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 416
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='io.selendroid.testapp:id/startUserRegistration']",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 674
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterUsername",
+      "args": [
+        "[John]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 655
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"]",
+            "{\"id\":\"1\",\"value\":[\"John\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1632
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Enter_EmailID",
+      "args": [
+        "[test1@gmail.com]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 342
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"]",
+            "{\"id\":\"2\",\"value\":[\"test1@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1991
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateName",
+      "args": [
+        "[Mr. Burns]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputName\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 436
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputName\"]",
+            "{\"name\":\"text\",\"id\":\"3\"}"
+          ],
+          "result": "getElementAttribute:Mr. Burns",
+          "subLogs": [],
+          "duration": 514
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When I start application by id \"io.selendroid.testapp\"",
+      "type": "TestStepPass",
+      "duration": 1122,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I verify page",
+      "type": "TestStepPass",
+      "duration": 1102,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter \"John\" username",
+      "type": "TestStepPass",
+      "duration": 2289,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter emailID \"test1@gmail.com\"",
+      "type": "TestStepPass",
+      "duration": 2337,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I validate name \"Mr. Burns\"",
+      "type": "TestStepPass",
+      "duration": 958,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+    <parameter name="driver.name" value="perfectoDriver"/>
+
+    <test name="IOS Calc Test" enabled="false">
+        <parameter name="driver.capabilities.deviceName" value="FCB77862B0579F1D78EF7F15F86E9E40E1A1F359"></parameter>
+       <!--  <parameter name="driver.capabilities.bundleId" value="com.ihg.priorityclubrewardstest"></parameter> -->
+        <!-- <parameter name="env.resources" value="src/main/resources/ios"/> -->
+
+        <groups>
+            <run>
+                <include name="@IHG"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    <test name="Android Calc Test" enabled="true">
+        <parameter name="driver.capabilities.deviceName" value="02157DF2A1B46C22"></parameter>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@demo_app"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>

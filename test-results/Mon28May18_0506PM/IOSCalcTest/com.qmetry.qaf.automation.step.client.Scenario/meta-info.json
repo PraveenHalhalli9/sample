@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@IHG",
+          "@appium"
+        ],
+        "lineNo": 13,
+        "name": "Appium Example",
+        "referece": "src/main/resources/scenarios/appiumCalc.feature",
+        "sign": "src.main.resources.scenarios.appiumCalc.feature.Appium Example()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1527507383510,
+      "duration": 401221,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

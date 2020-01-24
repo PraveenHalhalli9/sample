@@ -1,0 +1,186 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[io.selendroid.testapp]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 249
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_Homepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='io.selendroid.testapp:id/startUserRegistration'], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 667
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='io.selendroid.testapp:id/startUserRegistration']",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 685
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterUsername",
+      "args": [
+        "[John]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 729
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"]",
+            "{\"id\":\"1\",\"value\":[\"John\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1641
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Enter_EmailID",
+      "args": [
+        "[test1@gmail.com]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 463
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"]",
+            "{\"id\":\"2\",\"value\":[\"test1@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1999
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "validateName",
+      "args": [
+        "[Mr.Burns]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputName\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 439
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputName\"]",
+            "{\"name\":\"text\",\"id\":\"3\"}"
+          ],
+          "result": "getElementAttribute:Mr. Burns",
+          "subLogs": [],
+          "duration": 517
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When I start application by id \"io.selendroid.testapp\"",
+      "type": "TestStepPass",
+      "duration": 626,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I verify page",
+      "type": "TestStepPass",
+      "duration": 1364,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter \"John\" username",
+      "type": "TestStepPass",
+      "duration": 2374,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter emailID \"test1@gmail.com\"",
+      "type": "TestStepPass",
+      "duration": 2464,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I validate name \"Mr.Burns\"",
+      "type": "TestStepFail",
+      "screenshot": "img/create a demo user_450yis6um69h20019.png",
+      "duration": 963,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "expected [Mr. Burns] but found [Mr.Burns]",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: expected [Mr. Burns] but found [Mr.Burns]\r\n\tat .And I validate name \"Mr.Burns\"(src/main/resources/scenarios/selendroid.feature:23)\r\n\tat com.quantum.steps.selendroidStepDefs.validateName(selendroidStepDefs.java:54)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n"
+}

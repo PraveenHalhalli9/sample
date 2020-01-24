@@ -1,0 +1,264 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[io.selendroid.testapp]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 295
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[FolderIcon]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/startUserRegistration\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 487
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/startUserRegistration\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 587
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[Praveen, Username_text_feild]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 594
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputUsername\"]",
+            "{\"id\":\"1\",\"value\":[\"Praveen\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1319
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[praveenh@gmail.com, email_text_field]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 658
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputEmail\"]",
+            "{\"id\":\"2\",\"value\":[\"praveenh@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1863
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[1234, password_text_field]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/inputPassword\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 547
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/inputPassword\"]",
+            "{\"id\":\"3\",\"value\":[\"1234\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1909
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.hideKeyboard",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[checkbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/input_adds\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 459
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/input_adds\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 630
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[Register_user]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"io.selendroid.testapp:id/btnRegisterUser\"], using=xpath}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 435
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"io.selendroid.testapp:id/btnRegisterUser\"]",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 563
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"io.selendroid.testapp\"",
+      "type": "TestStepPass",
+      "duration": 691,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"FolderIcon\"",
+      "type": "TestStepPass",
+      "duration": 1114,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I enter \"Praveen\" to \"Username_text_feild\"",
+      "type": "TestStepPass",
+      "duration": 1918,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I enter \"praveenh@gmail.com\" to \"email_text_field\"",
+      "type": "TestStepPass",
+      "duration": 2526,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"1234\" to \"password_text_field\"",
+      "type": "TestStepPass",
+      "duration": 2459,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Given I hide keyboard",
+      "type": "TestStepPass",
+      "duration": 6461,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on \"checkbox\"",
+      "type": "TestStepPass",
+      "duration": 1091,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"Register_user\"",
+      "type": "TestStepPass",
+      "duration": 1000,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

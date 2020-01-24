@@ -1,0 +1,101 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[io.selendroid.testapp]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 267
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_Homepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id='io.selendroid.testapp:id/startUserRegistration'], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 476
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id='io.selendroid.testapp:id/startUserRegistration']",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 707
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I Enter username \"john\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I Enter emailID \"test1@gmail.com\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When I start application by id \"io.selendroid.testapp\"",
+      "type": "TestStepPass",
+      "duration": 625,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I verify page",
+      "type": "TestStepPass",
+      "duration": 1193,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter username \"john\" :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I Enter emailID \"test1@gmail.com\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I Enter username \"john\"@src/main/resources/scenarios/selendroid.feature#21 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then I Enter username \"john\"(src/main/resources/scenarios/selendroid.feature:21)\r\n"
+}

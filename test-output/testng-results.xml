@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, eclipseExecutionId=praveenh@perfectomobile.com_Eclipse_18-07-03_06_42_03_7287, available=false, language=English, deviceName=02157DF2A1B46C22, deviceId=02157DF2A1B46C22, resolution=1440x2560, mode=CONNECTED, password=, cradleId=BOS-C5-5-2/VIRTUAL/04, deviceSessionId=DEB56235E8A9AD05D0DB8CB25E4E972E, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S6, rotatable=true, entityType=remote_web_driver, executionId=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, phoneNumber=+13392231791, webdriver.remote.sessionid=8569b940-3dca-4a19-8b01-63d4d8c1257e, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=IBMProjectTesting, operatorCode=310004, operatorName=Verizon, platform=ANY, wifiMacAddress=90:b6:86:5f:20:81, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, inUse=true, takesScreenshot=true, platformName=Android, firmware=zerofltevzw-user 6.0.1 MMB29K G920VVRS4CPI2 release-keys, applicationName=selendroid-test-app, testGridReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, os=Android, allocatedTo=praveenh@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=NA-US-BOS, linkType=lab, reportKey=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, operatorCountry=United States of America, windTunnelReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, user=}] ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: create a demo user █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I start application by id "io.selendroid.testapp" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I start application by id "io.selendroid.testapp" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And I verify page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And I verify page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I Enter "John" username ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I Enter "John" username ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I Enter emailID "test1@gmail.com" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I Enter emailID "test1@gmail.com" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Enter password "12345" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given Enter password "12345" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And I validate name "Mr. Burns" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And I validate name "Mr. Burns" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://partners.reporting.perfectomobile.com/library?externalId%5B0%5D=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp%5B0%5D=1530602740149 ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST PASSED: create a demo user █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When I start application by id "io.selendroid.testapp"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I verify page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I Enter "John" username</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I Enter emailID "test1@gmail.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Enter password "12345"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I validate name "Mr. Burns"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Appium Demo Suite" duration-ms="26967" started-at="2018-07-03T07:28:33Z" finished-at="2018-07-03T07:29:00Z">
+    <groups>
+      <group name="@selendroid">
+        <method signature="src.main.resources.scenarios.selendroid.feature.create a demo user()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="create a demo user" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @selendroid -->
+      <group name="@demo_app">
+        <method signature="src.main.resources.scenarios.selendroid.feature.create a demo user()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="create a demo user" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @demo_app -->
+    </groups>
+    <test name="Android Calc Test" duration-ms="26967" started-at="2018-07-03T07:28:33Z" finished-at="2018-07-03T07:29:00Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="setupSuit" is-config="true" duration-ms="13" started-at="2018-07-03T12:58:33Z" finished-at="2018-07-03T12:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="setupTest" is-config="true" duration-ms="9" started-at="2018-07-03T12:58:33Z" finished-at="2018-07-03T12:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="setup" is-config="true" duration-ms="1" started-at="2018-07-03T12:58:33Z" finished-at="2018-07-03T12:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="create a demo user()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="create a demo user" duration-ms="18816" started-at="2018-07-03T12:58:33Z" finished-at="2018-07-03T12:58:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, eclipseExecutionId=praveenh@perfectomobile.com_Eclipse_18-07-03_06_42_03_7287, available=false, language=English, deviceName=02157DF2A1B46C22, deviceId=02157DF2A1B46C22, resolution=1440x2560, mode=CONNECTED, password=, cradleId=BOS-C5-5-2/VIRTUAL/04, deviceSessionId=DEB56235E8A9AD05D0DB8CB25E4E972E, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S6, rotatable=true, entityType=remote_web_driver, executionId=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, phoneNumber=+13392231791, webdriver.remote.sessionid=8569b940-3dca-4a19-8b01-63d4d8c1257e, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=IBMProjectTesting, operatorCode=310004, operatorName=Verizon, platform=ANY, wifiMacAddress=90:b6:86:5f:20:81, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, inUse=true, takesScreenshot=true, platformName=Android, firmware=zerofltevzw-user 6.0.1 MMB29K G920VVRS4CPI2 release-keys, applicationName=selendroid-test-app, testGridReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, os=Android, allocatedTo=praveenh@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=NA-US-BOS, linkType=lab, reportKey=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, operatorCountry=United States of America, windTunnelReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, user=}] ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: create a demo user █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I start application by id "io.selendroid.testapp" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I start application by id "io.selendroid.testapp" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And I verify page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And I verify page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I Enter "John" username ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I Enter "John" username ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I Enter emailID "test1@gmail.com" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I Enter emailID "test1@gmail.com" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given Enter password "12345" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given Enter password "12345" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And I validate name "Mr. Burns" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And I validate name "Mr. Burns" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▀▄▀▄▀ REPORTIUM URL: https://partners.reporting.perfectomobile.com/library?externalId%5B0%5D=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp%5B0%5D=1530602740149 ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST PASSED: create a demo user █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When I start application by id "io.selendroid.testapp"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I verify page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I Enter "John" username</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I Enter emailID "test1@gmail.com"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Enter password "12345"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And I validate name "Mr. Burns"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create a demo user -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-07-03T12:58:33Z" finished-at="2018-07-03T12:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-03T12:58:52Z" finished-at="2018-07-03T12:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=create a demo user status=SUCCESS method=src.main.resources.scenarios.selendroid.feature.create a demo user()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, eclipseExecutionId=praveenh@perfectomobile.com_Eclipse_18-07-03_06_42_03_7287, available=false, language=English, deviceName=02157DF2A1B46C22, deviceId=02157DF2A1B46C22, resolution=1440x2560, mode=CONNECTED, password=, cradleId=BOS-C5-5-2/VIRTUAL/04, deviceSessionId=DEB56235E8A9AD05D0DB8CB25E4E972E, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S6, rotatable=true, entityType=remote_web_driver, executionId=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, phoneNumber=+13392231791, webdriver.remote.sessionid=8569b940-3dca-4a19-8b01-63d4d8c1257e, scriptName=RemoteWebDriver, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected, description=IBMProjectTesting, operatorCode=310004, operatorName=Verizon, platform=ANY, wifiMacAddress=90:b6:86:5f:20:81, manufacturer=Samsung, osVersion=6.0.1, singleTestReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, inUse=true, takesScreenshot=true, platformName=Android, firmware=zerofltevzw-user 6.0.1 MMB29K G920VVRS4CPI2 release-keys, applicationName=selendroid-test-app, testGridReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, os=Android, allocatedTo=praveenh@perfectomobile.com, serverConnector=, securityToken=, locationContextEnabled=true, location=NA-US-BOS, linkType=lab, reportKey=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305, operatorCountry=United States of America, windTunnelReportUrl=https://partners.reporting.perfectomobile.com/library?externalId[0]=praveenh@perfectomobile.com_RemoteWebDriver_18-07-03_07_25_40_7305&_timestamp[0]=1530602740149, user=}] ▀▄▀▄▀]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-03T12:58:52Z" finished-at="2018-07-03T12:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="create a demo user" name="afterTest" is-config="true" duration-ms="7855" started-at="2018-07-03T12:58:52Z" finished-at="2018-07-03T12:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4988d8b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- Android Calc Test -->
+  </suite> <!-- Appium Demo Suite -->
+</testng-results>

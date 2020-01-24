@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@appium",
+          "@selendroid"
+        ],
+        "lineNo": 6,
+        "name": "demo create user",
+        "Perfecto-report": "<a href=\"https://demo.reporting.perfectomobile.com?externalId[0]=guruswamy.bm@perfectomobile.com_RemoteWebDriver_18-02-20_11_02_19_3835&_timestamp[0]=1519124539173\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/selendroid.feature",
+        "sign": "src.main.resources.scenarios.selendroid.feature.demo create user()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519124605804,
+      "duration": 40898,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

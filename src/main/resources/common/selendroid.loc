@@ -1,0 +1,7 @@
+FolderIcon = xpath=//*[@resource-id="io.selendroid.testapp:id/startUserRegistration"]
+Username_text_feild = xpath=//*[@resource-id="io.selendroid.testapp:id/inputUsername"]
+email_text_field = xpath=//*[@resource-id="io.selendroid.testapp:id/inputEmail"]
+password_text_field = xpath=//*[@resource-id="io.selendroid.testapp:id/inputPassword"]
+checkbox = xpath=//*[@resource-id="io.selendroid.testapp:id/input_adds"]
+Register_user = xpath=//*[@resource-id="io.selendroid.testapp:id/btnRegisterUser"]
+   
